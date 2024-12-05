@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toe Beans Cat Cafe</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Preconnect links for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+    <!-- Ionicons Script -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- Logo on the left -->
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Cat Cafe Logo">
+            </a>
+    
+            <!-- Navbar with menu items -->
+            <nav class="navbar" data-nav>
+                <ul class="navbar-list">
+                    <li><a href="index.html" class="navbar-link">Home</a></li>
+                    <li><a href="menu.html" class="navbar-link">Menu</a></li>
+                    <li><a href="details.html" class="navbar-link">Details</a></li>
+                    <li><a href="contact.html" class="navbar-link">Contact Us</a></li>
+                    <li><a href="location.html" class="navbar-link">Location</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <div class="map-container">
+        <div class="map-header">Toe Beans Cat Cafe Location</div>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2872.4744276981173!2d-78.2863419238075!3d43.94954967108945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d5c72c8b00b991%3A0xb0ce58514c25c63a!2sToe%20Beans%20Cat%20Cafe!5e0!3m2!1sen!2sca!4v1733354241505!5m2!1sen!2sca" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <section class="contact-section">
+        <!-- Address Column -->
+        <div class="contact-column">
+            <ion-icon name="location-outline" class="contact-icon"></ion-icon>
+            <h2>ADDRESS</h2>
+            <p><span>Toe Beans Cat Cafe Location</span><br>119 Peter St.<br>Port Hope, ON L1A 1C5</p>
+        </div>
+
+        <!-- Phone Column -->
+        <div class="contact-column">
+            <ion-icon name="call-outline" class="contact-icon"></ion-icon>
+            <h2>PHONE</h2>
+            <p><span>Call in Advanced</span><br>+1 (905) - 800 - 1050</p>
+        </div>
+
+        <!-- Email Column -->
+        <div class="contact-column">
+            <ion-icon name="chatbubble-ellipses-outline" class="contact-icon"></ion-icon>
+            <h2>EMAIL</h2>
+            <p><span>Request for More Information</span><br>toebeanscatcafe@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rumsha Ahmed | Student Number: 301477527 | Final Assignment - Toe Beans Cat Café</p>
+    </footer>
+
+    <script>
+        // Wait for the page to load completely
+        window.addEventListener('load', function () {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>
